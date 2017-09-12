@@ -8,4 +8,4 @@ While the customer is performing UAT, they generated a Cheque device error by op
 After a message from the host at the following time, the application appears to hang,
 11:36:42.050 - 10/07/2017 #0604 [1 000 000 3]
 Logs are attached,
-AANDC 4.04.01 , XFS 06.04.01 , Windows 7
+AANDC 4.04.01 , XFS 06.04.01 , Windows 8
