@@ -1,0 +1,11 @@
+While the customer is performing UAT, they generated a Cheque device error by opening back compartment ‘H’ marked in red in below photo and then performed Cheque deposit transaction with following flow:
+1.	User starts a transaction session and selects Cheque deposit transaction on 10/07/2017 @ 11:30.
+2.	Cheque Accept State ‘w’ Exception Next State Exit is taken and device and Cheque Processor XFSReset occurs. 
+3.	The Transaction is terminated and card is returned 
+4.	ATM goes out of service. 
+5.	ATM stays in out-of-service mode and it doesn’t go either In-service or Supervisor mode.
+6.	We have to reboot the ATM in order to bring the ATM back in-service/supervisor mode.
+After a message from the host at the following time, the application appears to hang,
+11:36:42.050 - 10/07/2017 #0604 [1 000 000 3]
+Logs are attached,
+AANDC 4.04.01 , XFS 06.04.01 , Windows 7
