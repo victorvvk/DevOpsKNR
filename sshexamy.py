@@ -6,5 +6,6 @@ will fail unless you manually run git fetch origin-push. This method is of cours
 
 git fetch 
 git tag base master
-git rebase -i master
+git rebase -i master 
 git push --force-with-lease=master:base master:master
+git rebase -i master
